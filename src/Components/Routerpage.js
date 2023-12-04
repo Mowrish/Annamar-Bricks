@@ -31,7 +31,7 @@ export default function RouterPage() {
 
   return (
    <div className='container-fluid'> 
-   <div className="d-flex justify-content-center"><img src='Logo.png' height={100} data-aos='zoom-out'/></div>
+   <div className="d-flex justify-content-center"><img src='Logo.png' alt='logo' height={100} data-aos='zoom-out'/></div>
    <div className="d-flex justify-content-center">
     <h4 style={{fontFamily:'serif'}} data-aos='fade-up'>Annamar Bricks</h4>
    </div>

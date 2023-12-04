@@ -7,18 +7,7 @@
     
   }
   
-@media screen and (max-width: 600px) {
-  #content {
-    position: static;
-    transform: none;
-    text-align: left; 
-    margin: 10px;
-  }
-  #homeImage{
-    display: none;
-  }
 
-}
 #info{
     border: 1px solid white;
     background-color: aliceblue;
@@ -108,7 +97,7 @@
   margin-top: 100px;
 }/* Add vendor prefixes as needed for broader browser support */
 .scrolling-text-container {
-  width: 100%; /* Adjust as needed */
+  width: 100%; 
   white-space: nowrap;
   overflow: hidden;
   animation: marquee 10s linear infinite;
