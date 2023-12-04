@@ -61,7 +61,7 @@ export default function CostCalculator() {
     <div>
       <MDBNavbar>
         <MDBContainer lg>
-          <MDBNavbarBrand href='#' data-aos='zoom-out'>
+          <MDBNavbarBrand  data-aos='zoom-out'>
             <img
               src='costcalculator.png'
               width='200'

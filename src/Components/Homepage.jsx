@@ -404,7 +404,7 @@ function Footer(){
     <MDBFooter className='text-center' color='white' bgColor='primary'>
       <MDBContainer className='p-4'>
         <section className='mb-4'>
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1'  role='button'>
             <MDBIcon fab icon='facebook-f' />
           </MDBBtn>
 
@@ -412,17 +412,17 @@ function Footer(){
             <MDBIcon fab icon="sign-out" />
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1'  role='button'>
             <MDBIcon fab icon='google' />
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1' role='button'>
             <MDBIcon fab icon='instagram' />
           </MDBBtn>
         </section>
 
-        <section className=''>
-          <form action=''>
+        <section >
+          <form >
             <MDBRow className='d-flex justify-content-center'>
               <MDBCol size="auto">
                 <p className='pt-2'>
@@ -448,7 +448,7 @@ function Footer(){
           </p>
         </section>
 
-        <section className=''>
+        <section>
           <MDBRow>
            
             
@@ -464,7 +464,7 @@ function Footer(){
                 </li>
                 
                 <li>
-                  <a href='#!' className='text-white'>
+                  <a href='/contact' className='text-white'>
                     Contact
                   </a>
                 </li>
