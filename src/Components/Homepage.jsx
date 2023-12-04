@@ -39,7 +39,7 @@ export default function Home() {
         console.error('Error fetching data:', error);
         // Handle error fetching data, set default values, or handle accordingly
       });
-  }, []);
+  }, [stockcount]);
   
 
   useEffect(() => {
@@ -81,7 +81,7 @@ export default function Home() {
 
       return () => clearInterval(interval);
     }
-  }, [employes, startCounting]);
+  }, [employes,stockcount, startCounting]);
   useEffect(() => {
     
     
@@ -97,7 +97,7 @@ export default function Home() {
 
       return () => clearInterval(interval);
     }
-  }, [stock, startCounting]);
+  }, [stock, startCounting,stockcount]);
   useEffect(()=>{
     AOS.init({duration:2000})
   },[]);
@@ -122,11 +122,11 @@ export default function Home() {
           </div>
           </div>
     {/* marque text for adreress */}
-          <div id='marqueAdrees'>
-                  <marquee behavior="scroll" direction="left" scrollamount="3">
-                        Annamar Bricks - RingRoad, 46 pudur, Erode - 638002 (call:96882 27255)
-                  </marquee>
-          </div>
+    <div id='marqueAdrees'>
+    <div class="scrolling-text-container">
+        <p>Annamar Bricks - RingRoad, 46 pudur, Erode - 638002 (call:96882 27255)</p>
+    </div>
+</div>
 
           {/* Background image */}
           <MDBCard background='dark' className='text-white'>
@@ -218,7 +218,7 @@ function Details(){
   
   <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
     <div className="col">
-      <img src='bgimg1.jpeg' className='img-fluid' data-aos='zoom-in'/>
+      <img src='bgimg1.jpeg' alt='notfound' className='img-fluid' data-aos='zoom-in'/>
     </div>
     <div className="col">
     <h1><strong style={{fontWeight:'bold', color:'red'}} data-aos='fade-up'>Why Annamar Bricks</strong></h1>
@@ -234,9 +234,9 @@ function Details(){
       <MDBCard className='deliveryicon' data-aos='fade-left'>
           <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
             <MDBCardImage src='deliveryicon.png' color='red' fluid alt='...' />
-            <a>
+            
               <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
-            </a>
+            
           </MDBRipple>
           <MDBCardBody>
             <MDBCardTitle><h1 style={{fontWeight:'bolder',color:'red'}} id='delivery'>OnTime Delivery </h1></MDBCardTitle>
@@ -253,9 +253,9 @@ function Details(){
       <MDBCard className='deliveryicon' data-aos='fade-right'>
           <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
             <MDBCardImage src='Bestquality.png' color='red' fluid alt='...' />
-            <a>
+            
               <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
-            </a>
+            
           </MDBRipple>
           <MDBCardBody>
             <MDBCardTitle><h1 style={{fontWeight:'bolder',color:'red'}} id='delivery'>Best Quality </h1></MDBCardTitle>

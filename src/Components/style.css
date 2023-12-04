@@ -106,7 +106,19 @@
 }
 .conatactdetails{
   margin-top: 100px;
+}/* Add vendor prefixes as needed for broader browser support */
+.scrolling-text-container {
+  width: 100%; /* Adjust as needed */
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 10s linear infinite;
 }
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
 
 
 
