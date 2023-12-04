@@ -20,7 +20,6 @@
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 .counts{
   display: flexbox;
   position: absolute;
@@ -96,17 +95,17 @@
 .conatactdetails{
   margin-top: 100px;
 }/* Add vendor prefixes as needed for broader browser support */
-/* .scrolling-text-container {
+.scrolling-text-container {
   width: 100%; 
   white-space: nowrap;
   overflow: hidden;
-  animation: marquee 10s linear infinite;
+  animation: marquee 15s linear infinite;
 }
 
 @keyframes marquee {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
-} */
+  0% { transform: translateX(300%); }
+  100% { transform: translateX(-150%); }
+}
 
 
 

@@ -124,7 +124,7 @@ export default function Home() {
     {/* marque text for adreress */}
     <div id='marqueAdrees'>
     <div className="scrolling-text-container">
-        <p>Annamar Bricks - RingRoad, 46 pudur, Erode - 638002 (call:96882 27255)</p>
+    <h6>Annamar Bricks - RingRoad, 46 pudur, Erode - 638002 (call:96882 27255)</h6>
     </div>
 </div>
 
