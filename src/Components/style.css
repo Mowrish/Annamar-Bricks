@@ -24,7 +24,7 @@
   display: flexbox;
   position: absolute;
   margin: 20px 0px;
-  background-image: url('D:\react\anamarbricks\public\productionimg.png' );
+  background-image: url('/public/productionimg.png' );
   background-repeat: no-repeat;
   background-size: 100px;
   background-position: right bottom;
@@ -36,7 +36,7 @@
   display: flexbox;
   position: absolute;
   margin: 20px 0px;
-  background-image: url('D:\react\anamarbricks\public\employe icon.png' );
+  background-image: url('/public/employe\ icon.png');
   background-repeat: no-repeat;
   background-size: 100px;
   background-position: right bottom;
@@ -48,7 +48,7 @@
   display: flexbox;
   position: absolute;
   margin: 20px 0px;
-  background-image: url('D:\react\anamarbricks\public\stockicon.png' );
+  background-image: url('/public/stockicon.png');
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: right bottom;
